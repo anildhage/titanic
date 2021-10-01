@@ -9,7 +9,7 @@ Dear all, this is alegendary dataset which you must have known. If you are new t
 
 In the application or let's say project, a machine learning algorithm is used which predicts the survival of the passengers who travelled on the Titanic. This prediction is deployed on a web application where you can run the program based on the data you input. 
 
-In this app, the details you enter in the form will be considered as a ticket to board the Titanic. You will experience as if you are actually buying the ticket to travel. 
+In this app, the details you enter in the form will be considered as a ticket to board the Titanic. You will experience as if you are actually buying the ticket to travel. Take a look at the [website](https://anildhage-titanic.herokuapp.com).
 
 ## Motivation
 
