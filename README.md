@@ -18,8 +18,8 @@ I like to data science work actually. The only way I could become better and bet
 
 ## Demo
 
-![demo1](gif1.gif)
-![demo2](gif2.gif)
+![demo1](gif/gif1.gif)
+![demo2](gif/gif2.gif)
 
 ## Project Status
 
@@ -63,10 +63,10 @@ Everyone can contribute here. I'm sure the super busy guys and girls may not hav
 
 ## Deployment on Heroku 
 
-![Heroku1](../gif/gif1.gif)
-![Heroku2](../gif/gif1.gif)
-![Heroku3](../gif/gif1.gif)
-![Heroku4](../gif/gif1.gif)
+![Heroku1](gif/heroku1.gif)
+![Heroku2](gif/heroku2.gif)
+![Heroku3](gif/heroku3.gif)
+![Heroku4](gif/heroku4.gif)
 
 
 ## Run this program on your computer
