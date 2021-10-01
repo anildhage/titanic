@@ -1,0 +1,28 @@
+{% extends 'layout.html' %}
+
+{% block content %}
+       <div class="container">
+            <div class="text-center mt-5">
+                <h1>Titanic Dataset Vs Titanic incident</h1>
+                    
+                    <p href="">&#8595</p>
+
+                   <br>
+                   <br>
+                   <p>
+                    I'm glad you are following me. So, the Titanic dataset that we have about the passengers on the internet, and the one that I'm using is real but this dataset doesn't have details about all of the passengers. <a class = "nav-link" target = "blank" href="https://web.stanford.edu/class/archive/cs/cs109/cs109.1166/problem12.html">source</a> However, this dataset is generated for the purpose of learning and it has enough data about the passengers. It is an amazing dataset, a lot of things can be learnt from this set alone. 
+                   </p>
+                   <p class="lead"> I have seen many people making projects that show how raw historical data is processed and later used for prediction using machine learning algorithms. Similarly, I also wanted to implement this project for learning the complete data science work and for you all too to check and feel how it's done or how the end state will look like.
+                   </p>
+                   <br>
+                   <strong>If you are just a reader or blogger on the internet, you can also try this prediction program.</strong>
+                   <br>
+                   <br>
+                   <small>This apps user interface is not great, but simple. Actually my focus is more on the data science and analysis, less UI but I love to work on it. So that was the intro, let's get back to the application</small>
+
+                   <a class="nav-link" href="{{ url_for('prediction') }}">Click me please
+                   </a> 
+
+			</div>	
+        </div>
+{% endblock %}

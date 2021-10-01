@@ -1,0 +1,209 @@
+{% extends 'layout.html' %}
+
+{% block content %}
+  <div class="container d-flex justify-content-center">
+            <div class="text-center mt-5">
+                <h1>Here you will find some facts that I gathered from the raw data. These will also help you in filling the form</h1>
+                <br>
+                <p>Graph related to <strong>'Pclass' </strong>which means Passenger classes below.</p>
+                <img src="/static/Passengers-who-travelled-in-class-1-with-their-Age.png" , alt="pic1"/>
+                <img src="/static/Passengers-who-travelled-in-class-2-with-their-Age.png" , alt="pic1"/>
+                <img src="/static/Passengers-who-travelled-in-class-3-with-their-Age.png" , alt="pic1"/>
+                <p>Graph related to <strong>'male' & 'female'.</strong></p>
+                <br>
+                <img src="/static/No-of-people-travelling-on-the-titanic-along-with-thier-age.png" , alt="pic1"/>
+                <img src="/static/Female-travellers-with-their-age.png" , alt="pic1"/>
+                <img src="/static/Male-travellers-with-their-age.png" , alt="pic1"/>
+                <img src="/static/Passengers-age-who-survived.png" , alt="pic1"/>
+                <img src="/static/Passengers-age-who-did-not-survive.png" , alt="pic1"/>
+                <p>Graph related to <strong>'fares'. </strong></p>
+                <img src="/static/Fares-paid-by-the-passengers.png" , alt="pic1"/>
+                <br>
+                <br>
+                <h3>For clarity: Below is a shuffled dataset sample snapshot given to help you with filling form. Fill form with these details, to check machine learning programs accuracy.</h3>
+                <br>
+                <br>
+
+                <div class="">
+        <div class="container col-md-6">
+            <h3> Passengers tickets that survive the Titanic</h3>
+            <table border="1" class="table table-dark table-hover ">
+                  <thead>
+                    <tr style="text-align: right;">
+                      <th></th>
+                      <th>Pclass</th>
+                      <th>Sex</th>
+                      <th>Age</th>
+                      <th>SibSp</th>
+                      <th>Parch</th>
+                      <th>Fare</th>
+                    </tr>
+                  </thead>
+                  <tbody>
+                    <tr>
+                      <th>0</th>
+                      <td>1</td>
+                      <td>female</td>
+                      <td>49.000</td>
+                      <td>1</td>
+                      <td>0</td>
+                      <td>76.7292</td>
+                    </tr>
+                    <tr>
+                      <th>1</th>
+                      <td>3</td>
+                      <td>male</td>
+                      <td>26.000</td>
+                      <td>0</td>
+                      <td>0</td>
+                      <td>56.4958</td>
+                    </tr>
+                    <tr>
+                      <th>2</th>
+                      <td>1</td>
+                      <td>female</td>
+                      <td>44.000</td>
+                      <td>0</td>
+                      <td>1</td>
+                      <td>57.9792</td>
+                    </tr>
+                    <tr>
+                      <th>3</th>
+                      <td>3</td>
+                      <td>female</td>
+                      <td>29.699</td>
+                      <td>0</td>
+                      <td>0</td>
+                      <td>7.8792</td>
+                    </tr>
+                    <tr>
+                      <th>4</th>
+                      <td>3</td>
+                      <td>male</td>
+                      <td>27.000</td>
+                      <td>0</td>
+                      <td>0</td>
+                      <td>8.6625</td>
+                    </tr>
+                    <tr>
+                      <th>5</th>
+                      <td>2</td>
+                      <td>female</td>
+                      <td>25.000</td>
+                      <td>1</td>
+                      <td>1</td>
+                      <td>30.0000</td>
+                    </tr>
+                    <tr>
+                      <th>6</th>
+                      <td>3</td>
+                      <td>female</td>
+                      <td>29.699</td>
+                      <td>1</td>
+                      <td>1</td>
+                      <td>22.3583</td>
+                    </tr>
+                    <tr>
+                      <th>7</th>
+                      <td>2</td>
+                      <td>female</td>
+                      <td>28.000</td>
+                      <td>0</td>
+                      <td>0</td>
+                      <td>12.6500</td>
+                    </tr>
+                  </tbody>
+            </table>
+        </div>
+
+        <div class="container col-md-6">
+            <h3> Passengers tickets that do not survive the Titanic.</h3>
+            <table border="1" class="table table-dark table-hover ">
+                  <thead>
+                    <tr style="text-align: right;">
+                      <th></th>
+                      <th>Pclass</th>
+                      <th>Sex</th>
+                      <th>Age</th>
+                      <th>SibSp</th>
+                      <th>Parch</th>
+                      <th>Fare</th>
+                    </tr>
+                  </thead>
+                  <tbody>
+                    <tr>
+                      <th>0</th>
+                      <td>1</td>
+                      <td>female</td>
+                      <td>2.000</td>
+                      <td>1</td>
+                      <td>2</td>
+                      <td>151.5500</td>
+                    </tr>
+                    <tr>
+                      <th>1</th>
+                      <td>3</td>
+                      <td>female</td>
+                      <td>29.699</td>
+                      <td>8</td>
+                      <td>2</td>
+                      <td>69.5500</td>
+                    </tr>
+                    <tr>
+                      <th>2</th>
+                      <td>3</td>
+                      <td>male</td>
+                      <td>24.000</td>
+                      <td>0</td>
+                      <td>0</td>
+                      <td>7.8958</td>
+                    </tr>
+                    <tr>
+                      <th>3</th>
+                      <td>3</td>
+                      <td>male</td>
+                      <td>29.699</td>
+                      <td>0</td>
+                      <td>0</td>
+                      <td>7.8958</td>
+                    </tr>
+                    <tr>
+                      <th>4</th>
+                      <td>3</td>
+                      <td>male</td>
+                      <td>29.699</td>
+                      <td>8</td>
+                      <td>2</td>
+                      <td>69.5500</td>
+                    </tr>
+                    <tr>
+                      <th>5</th>
+                      <td>3</td>
+                      <td>male</td>
+                      <td>36.000</td>
+                      <td>0</td>
+                      <td>0</td>
+                      <td>7.4958</td>
+                    </tr>
+                    <tr>
+                      <th>6</th>
+                      <td>3</td>
+                      <td>male</td>
+                      <td>11.000</td>
+                      <td>5</td>
+                      <td>2</td>
+                      <td>46.9000</td>
+                    </tr>
+                  </tbody>
+            </table>
+         </div>
+    </div>
+                <br>
+                <br>
+                <small> These are some graphs which can be created using tools that we have in python. These are some examples. More fine insights can be added if you will.</small>
+            </div>
+    </div>
+
+</body>
+</html>
+{% endblock %}

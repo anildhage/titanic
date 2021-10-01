@@ -1,0 +1,32 @@
+{% extends 'layout.html' %}
+
+{% block content %}
+    <div class="container">
+            <div class="text-center mt-5">
+                <h1>
+                    Well, based upon your ticket details,  
+                </h1>
+                <h3> I find that you will <h4 class="nav-link">{{ result }}</h4>.</h3> 
+                <br>
+                <br>
+                <p> The prediction is 98% accurate. Decision Tree Classifier gave the best score.</p>
+                <br>
+                <small> Do you want to predict again, and check your luck? <a class = "nav-link" href="{{ url_for('form') }}">click here</a></small>
+                <p> Or</p>
+                <small> 
+                    Take your friends advice and travel stressfree. <a class = "nav-link" href="{{ url_for('advice') }}">click here</a>
+                </small> 
+                <p> Or</p>
+                <small>
+                    If you would like to return to the home menu, <a 
+                   class = "nav-link" href="{{ url_for('home') }}">click here</a>
+                </small>    
+                <br>
+                <br>
+                <br>
+                <br>
+                <small class="lead form-text text-muted badge badge-primary"> If you want to grab the code, here is the <a class = "nav-link" target = "blank" href="https://github.com/anildhage/Titanic-Data-Prediction">GitHub</a></small>
+            </div>
+
+            </div>
+{% endblock %}

@@ -1,0 +1,51 @@
+{% extends 'layout.html' %}
+
+{% block content %}
+    
+    <h2 class="container d-flex justify-content-center">Ticket agent: Hello Sir or Madam, please fill the form to claim your seat.</h2>
+    <br>
+    <div class="content section container d-flex justify-content-center ">
+        <form class = "w-50 p-3", method="POST" action="{{ url_for('prediction_results') }}">
+            <!-- Adding CSRF (cross site request forgery token ) token  -->
+            {{ form.hidden_tag() }}
+            <fieldset class = "form-group">
+                <legend class="border-bottom mb-4 text-center ">Ticket details</legend>
+                <div class="form-group">
+                    {{ form.pclass.label(class = "form-control-label")}}
+                    {{ form.pclass(class="form-control form-control-lg",placeholder='1 or 2 or 3') }}
+                    <a class="nav-link" href="{{ url_for('facts') }}" target = "blank"><small id="emailHelp" class="form-text text-muted">Check 1-3 graphs of Pclass.</small></a>
+                </div>
+                <div class="form-group">
+                    {{ form.sex.label(class = "form-control-label")}}
+                    {{ form.sex(class="form-control form-control-lg", placeholder='male or female') }}
+                    <a class="nav-link" href="{{ url_for('facts') }}" target = "blank"><small id="emailHelp" class="form-text text-muted">Check Graph related to 'male' & 'female'.</small></a>
+                </div>
+                <div class="form-group">
+                    {{ form.age.label(class = "form-control-label")}}
+                    {{ form.age(class="form-control form-control-lg", placeholder='age') }}
+                </div>
+                <br>
+                <div class="form-group">
+                    {{ form.sibsp.label(class = "form-control-label")}}
+                    {{ form.sibsp(class="form-control form-control-lg",placeholder='siblings or spouse travelling? usually 1 or 2 or max 5')}}                
+                </div>
+                <br>
+                <div class="form-group">
+                    {{ form.parch.label(class = "form-control-label")}}
+                    {{ form.parch(class="form-control form-control-lg", placeholder='parents or children? usually 1 or 2  or max 4') }}
+                </div>
+                <br>
+                <div class="form-group">
+                    {{ form.fare.label(class = "form-control-label")}}
+                    {{ form.fare(class="form-control form-control-lg", placeholder='enter fare') }}
+                    <a class="nav-link" href="{{ url_for('facts') }}" target = "blank"><small id="emailHelp" class="form-text text-muted">Check Graph related to 'fares in $'.</small></a>
+                </div>
+                <br>
+            </fieldset> 
+            <div class="form-group text-center">
+                {{form.submit(class = "btn btn-outline-info")}}
+            </div>
+            <a class="nav-link" href="{{ url_for('advice') }}" target = "blank"><small id="emailHelp" class="content section container d-flex justify-content-center form-text text-muted "> Or buy Ticket from your friend.</small></a>
+        </form>
+    </div>
+{% endblock %}

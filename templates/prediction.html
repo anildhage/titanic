@@ -1,0 +1,22 @@
+{% extends 'layout.html' %}
+
+{% block content %}
+    <div class="container">
+            <div class="text-center mt-5">
+                <h1>Let's get you on board ... </h1>
+                <br>
+                    <p>
+                        Imagine that tomorrow Titanic is departing from your place. You won a 🎫ticket, and are excited to travel on it. 
+                    </p>
+                    <p class="lead">
+                        You post on social media about it. Later, a 👯‍♀️friend of yours who is data analyst calls you and informs that he thinks it is ⚠️risky to travel on Titanic, however, the risk can be mitigated if you purchased the right boarding ticket.
+                    </p>
+                    <br>
+                    <p>
+                        If you believe in data science, you would choose the ticket wisely that would guarantee your survival. However, for now lets assume you didn't care about your friends advice and called the office to buy tickets. 
+                    </p>
+                    <a class="nav-link" href="{{ url_for('form') }}">Buy
+                    </a>
+            </div>
+    </div>
+{% endblock %}

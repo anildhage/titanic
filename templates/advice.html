@@ -1,0 +1,230 @@
+{% extends 'layout.html' %}
+
+{% block content %}
+    <head>
+        <link rel="stylesheet" href="{{ url_for('static', filename='main.css') }}">
+    </head>
+    <h2 class="container d-flex justify-content-center">Friend: Good decision!</h2>
+    <br>
+    <p class = " text-center mt-5 container d-flex justify-content-center">Let me show you some tickets that guarantee your survival. One row contains one ticket. Choose from them as per your convenience. Ticket form is at the bottom.
+    </p>
+    <br>
+    <br>
+    <div class="">
+        <div class="container col-md-6">
+            <h3> Passengers tickets that survive the Titanic</h3>
+            <table border="1" class="table table-dark table-hover ">
+                  <thead>
+                    <tr style="text-align: right;">
+                      <th></th>
+                      <th>Pclass</th>
+                      <th>Sex</th>
+                      <th>Age</th>
+                      <th>SibSp</th>
+                      <th>Parch</th>
+                      <th>Fare</th>
+                    </tr>
+                  </thead>
+                  <tbody>
+                    <tr>
+                      <th>0</th>
+                      <td>1</td>
+                      <td>female</td>
+                      <td>49.000</td>
+                      <td>1</td>
+                      <td>0</td>
+                      <td>76.7292</td>
+                    </tr>
+                    <tr>
+                      <th>1</th>
+                      <td>3</td>
+                      <td>male</td>
+                      <td>26.000</td>
+                      <td>0</td>
+                      <td>0</td>
+                      <td>56.4958</td>
+                    </tr>
+                    <tr>
+                      <th>2</th>
+                      <td>1</td>
+                      <td>female</td>
+                      <td>44.000</td>
+                      <td>0</td>
+                      <td>1</td>
+                      <td>57.9792</td>
+                    </tr>
+                    <tr>
+                      <th>3</th>
+                      <td>3</td>
+                      <td>female</td>
+                      <td>29.699</td>
+                      <td>0</td>
+                      <td>0</td>
+                      <td>7.8792</td>
+                    </tr>
+                    <tr>
+                      <th>4</th>
+                      <td>3</td>
+                      <td>male</td>
+                      <td>27.000</td>
+                      <td>0</td>
+                      <td>0</td>
+                      <td>8.6625</td>
+                    </tr>
+                    <tr>
+                      <th>5</th>
+                      <td>2</td>
+                      <td>female</td>
+                      <td>25.000</td>
+                      <td>1</td>
+                      <td>1</td>
+                      <td>30.0000</td>
+                    </tr>
+                    <tr>
+                      <th>6</th>
+                      <td>3</td>
+                      <td>female</td>
+                      <td>29.699</td>
+                      <td>1</td>
+                      <td>1</td>
+                      <td>22.3583</td>
+                    </tr>
+                    <tr>
+                      <th>7</th>
+                      <td>2</td>
+                      <td>female</td>
+                      <td>28.000</td>
+                      <td>0</td>
+                      <td>0</td>
+                      <td>12.6500</td>
+                    </tr>
+                  </tbody>
+            </table>
+        </div>
+
+        <div class="container col-md-6">
+            <h3> Passengers tickets that do not survive the Titanic.</h3>
+            <p>FYI: Showing these tickets to you for testing purpose.</p>
+            <table border="1" class="table table-dark table-hover ">
+                  <thead>
+                    <tr style="text-align: right;">
+                      <th></th>
+                      <th>Pclass</th>
+                      <th>Sex</th>
+                      <th>Age</th>
+                      <th>SibSp</th>
+                      <th>Parch</th>
+                      <th>Fare</th>
+                    </tr>
+                  </thead>
+                  <tbody>
+                    <tr>
+                      <th>0</th>
+                      <td>1</td>
+                      <td>female</td>
+                      <td>2.000</td>
+                      <td>1</td>
+                      <td>2</td>
+                      <td>151.5500</td>
+                    </tr>
+                    <tr>
+                      <th>1</th>
+                      <td>3</td>
+                      <td>female</td>
+                      <td>29.699</td>
+                      <td>8</td>
+                      <td>2</td>
+                      <td>69.5500</td>
+                    </tr>
+                    <tr>
+                      <th>2</th>
+                      <td>3</td>
+                      <td>male</td>
+                      <td>24.000</td>
+                      <td>0</td>
+                      <td>0</td>
+                      <td>7.8958</td>
+                    </tr>
+                    <tr>
+                      <th>3</th>
+                      <td>3</td>
+                      <td>male</td>
+                      <td>29.699</td>
+                      <td>0</td>
+                      <td>0</td>
+                      <td>7.8958</td>
+                    </tr>
+                    <tr>
+                      <th>4</th>
+                      <td>3</td>
+                      <td>male</td>
+                      <td>29.699</td>
+                      <td>8</td>
+                      <td>2</td>
+                      <td>69.5500</td>
+                    </tr>
+                    <tr>
+                      <th>5</th>
+                      <td>3</td>
+                      <td>male</td>
+                      <td>36.000</td>
+                      <td>0</td>
+                      <td>0</td>
+                      <td>7.4958</td>
+                    </tr>
+                    <tr>
+                      <th>6</th>
+                      <td>3</td>
+                      <td>male</td>
+                      <td>11.000</td>
+                      <td>5</td>
+                      <td>2</td>
+                      <td>46.9000</td>
+                    </tr>
+                  </tbody>
+            </table>
+         </div>
+    </div>
+    <div class="content section container d-flex justify-content-center ">
+        <form class = "w-50 p-3", method="POST" action="{{ url_for('prediction_results') }}">
+            <!-- Adding CSRF (cross site request forgery token ) token  -->
+            {{ form.hidden_tag() }}
+            <fieldset class = "form-group">
+                <legend class="border-bottom mb-4 text-center ">Enter tickets your details</legend>
+                <div class="form-group">
+                    {{ form.pclass.label(class = "form-control-label")}}
+                    {{ form.pclass(class="form-control form-control-lg",placeholder='1 or 2 or 3') }}
+                </div>
+                <br>
+                <div class="form-group">
+                    {{ form.sex.label(class = "form-control-label")}}
+                    {{ form.sex(class="form-control form-control-lg", placeholder='male or female') }}
+                </div>
+                <br>
+                <div class="form-group">
+                    {{ form.age.label(class = "form-control-label")}}
+                    {{ form.age(class="form-control form-control-lg", placeholder='age') }}
+                </div>
+                <br>
+                <div class="form-group">
+                    {{ form.sibsp.label(class = "form-control-label")}}
+                    {{ form.sibsp(class="form-control form-control-lg",placeholder='siblings or spouse travelling? usually 1 or 2 or max 5')}}                
+                </div>
+                <br>
+                <div class="form-group">
+                    {{ form.parch.label(class = "form-control-label")}}
+                    {{ form.parch(class="form-control form-control-lg", placeholder='parents or children? usually 1 or 2  or max 4') }}
+                </div>
+                <br>
+                <div class="form-group">
+                    {{ form.fare.label(class = "form-control-label")}}
+                    {{ form.fare(class="form-control form-control-lg", placeholder='enter fare') }}
+                </div>
+                <br>
+            </fieldset> 
+            <div class="form-group text-center">
+                {{form.submit(class = "btn btn-outline-info")}}
+            </div>
+        </form>
+    </div>
+{% endblock %}
