@@ -63,10 +63,10 @@ Everyone can contribute here. I'm sure the super busy guys and girls may not hav
 
 ## Deployment on Heroku 
 
-![Heroku1](gif/gif1.gif)
-![Heroku2](gif/gif1.gif)
-![Heroku3](gif/gif1.gif)
-![Heroku4](gif/gif1.gif)
+![Heroku1](../gif/gif1.gif)
+![Heroku2](../gif/gif1.gif)
+![Heroku3](../gif/gif1.gif)
+![Heroku4](../gif/gif1.gif)
 
 
 ## Run this program on your computer
