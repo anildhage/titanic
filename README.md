@@ -71,7 +71,11 @@ Contribute to open source, learn and earn prizes. This fest is valid from 1st to
 ![Heroku2](gif/heroku2.gif)
 ![Heroku3](gif/heroku3.gif)
 ![Heroku4](gif/heroku4.gif)
+![Heroku-img](gif/heroku.png)
 
+## Heroku Error
+
+If you get the below error the heroku free dyno hours might have been finished. Please run this program on you computer. You can access the website from the beginning of next month. Please find the steps below to run the program on you PC.
 
 ## Run this program on your computer
 
