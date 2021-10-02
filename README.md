@@ -75,14 +75,13 @@ Contribute to open source, learn and earn prizes. This fest is valid from 1st to
 
 ## Run this program on your computer
 
-1. fork this repository
-2. Open terminal, chose the path where you want this program to be saved and run 
-  git clone 'paste the Https link'
-3. From terminal enter in to the projects directory then run the below code that will install the dependencies required for this program
-  pip install -r requirements.txt
-4. After the downloads, run the below code that will start the program
-  python app.py
-5. In the terminal, find the server link. Open it in your browser. 
+1. Fork this repository
+2. Create a new environment for this project using conda or any environment tool that you are used to
+3. After cloning the repository, copy its Http link by clicking on *Code*
+4. Open terminal, chose the path where you want this program to be saved and run  ``` git clone 'paste the Https link' ```
+5. From terminal enter in to the projects directory then run this code that will install the dependencies required for this program ``` pip install -r requirements.txt ```
+4. After the downloads, run the below this code that will start the program on your local server ``` python app.py ```
+5. In the terminal, find the server link. Open it in your browser.  
 
 
 ## Feedback
