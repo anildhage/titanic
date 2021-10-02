@@ -1,5 +1,5 @@
 # titanic
-A machine learning program, built from scratch. Motivated by Kaggle's datasets.
+A machine learning program, built from scratch. Motivated by Kaggle's datasets. 
 
 ## Overview
 
@@ -27,7 +27,7 @@ Completed. However, there are a few things that can be improved. I will discuss 
 
 ## Needs of the project // Contribution
 
-As you may have noticed that this project is almost done but there are a few things if it can be improved, it will really turn out well.
+As you may have noticed that this project is almost complete but there are a many more things that can be improved. Feel free to add functionalities and add more features if it can make the app more better.
 
 	1. CSS for designing pages 
 	2. There is a bug where if you enter something else in the ticket form instead of what is required, the app crashes. I understand it should have been fixed but I wanted to get back to other things that requires my most attention.
@@ -38,6 +38,10 @@ As you may have noticed that this project is almost done but there are a few thi
 ### Contribution: 
 
 Everyone can contribute here. I'm sure the super busy guys and girls may not have time, but if you are learning and love open source contribution because of the benefits it can bring you and in your career, then go ahead and send pull requests. 
+
+## Hactoberfest 2021
+
+Contribute to open source, learn and earn prizes. This fest is valid from 1st to 31st October. 
 
 ## Machine Learning Model 
 
