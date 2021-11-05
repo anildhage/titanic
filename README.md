@@ -1,4 +1,4 @@
-# titanic
+# [titanic](https://iamdhage.medium.com/build-train-deploy-a-machine-learning-model-using-python-dabef0eb5427)
 A machine learning program, built from scratch. Motivated by Kaggle's datasets. 
 
 ## Overview
